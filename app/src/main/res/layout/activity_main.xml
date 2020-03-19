@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/rgroup"
+        android:layout_gravity="center_horizontal"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bangla"
+        android:onClick="rbclick"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:id="@+id/radiobtn"
+        android:checked="false"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="English"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:onClick="rbclick"
+        android:id="@+id/radiobtn2"
+        android:checked="false"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mathametics"
+        android:onClick="rbclick"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:id="@+id/radiobtn3"
+        android:checked="false"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ICT"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:onClick="rbclick"
+        android:id="@+id/radiobtn4"
+        android:checked="false"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chemistry"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:onClick="rbclick"
+        android:id="@+id/radiobtn5"
+        android:checked="false"/>
+
+
+
+
+</LinearLayout>
